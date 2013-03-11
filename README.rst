@@ -1,7 +1,7 @@
 Presentation
 ============
 
-.. image:: https://secure.travis-ci.org/abourget/gevent-socketio.png?branch=master
+.. image:: https://secure.travis-ci.org/carschar/gevent-socketio.png?branch=master
 
 ``gevent-socketio`` is a Python implementation of the Socket.IO
 protocol, developed originally for Node.js by LearnBoost and then
@@ -27,7 +27,7 @@ Django and BYOF (bring your own framework!).
 Documentation and References
 ============================
 
-You can read the renderered Sphinx docs at:
+You can read the rendered Sphinx docs at:
 
 * http://readthedocs.org/docs/gevent-socketio/en/latest/
 
@@ -52,11 +52,18 @@ You can install with standard Python methods::
 
    pip install gevent-socketio
 
-or from source::
+or from source
+ *official maintainer's copy*::
 
    git clone git://github.com/abourget/gevent-socketio.git
    cd gevent-socketio
    python setup.py install
+
+ *this copy, maintained by carschar*::
+   git clone git://github.com/carschar/gevent-socketio.git
+   cd gevent-socketio
+   python setup.py install
+
 
 For development, run instead of ``install``::
 
